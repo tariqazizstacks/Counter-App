@@ -30,8 +30,8 @@
     background-color: #473638;
     border: 3px solid red;
     border-radius: 12px;        
-    /* box-shadow: 0 4px 10px rgba(120, 64, 64, 0.2); soft shadow */
-     box-shadow: 6px 6px 12px rgba(0,0,0,0.3), -3px -3px 6px rgba(255,255,255,0.6);
+    box-shadow: 6px 6px 12px rgba(0,0,0,0.3), 
+     -3px -3px 6px rgba(255,255,255,0.6);
     }
 
   h1{
@@ -67,16 +67,17 @@
     margin: 5px;
     border: none;
     border-radius: 8px;
-    background: #007bff;       /* blue buttons */
+    background: #007bff;   
     color: white;
     font-size: 16px;
     cursor: pointer;
     transition: 0.3s;
-    box-shadow: 4px 4px 8px rgba(0,0,0,0.3), -2px -2px 4px rgba(255,255,255,0.5);
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.3), 
+    -2px -2px 4px rgba(255,255,255,0.5);
     }
 
     .btn:hover {
-     background:rgb(238, 63, 119);       /* darker blue on hover */
+     background:rgb(238, 63, 119);       
     }
 
     #reset {
@@ -89,7 +90,8 @@
     color: white;
     border: none;
     font-size: 16px; 
-    box-shadow: 4px 4px 8px rgba(0,0,0,0.3), -2px -2px 4px rgba(255,255,255,0.5);     
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.3), 
+    -2px -2px 4px rgba(255,255,255,0.5);     
     }
 
     #reset:hover {
@@ -109,8 +111,7 @@
         <button class="btn" id="reset">Reset</button>
     </div>
 
-</body>
-<script>
+    <script>
     let number= document.querySelector("h1");
     let count= document.getElementById("count");
     let decrease= document.getElementById("dec");
@@ -131,6 +132,8 @@
     });
     
     
+    </script>
 
-</script>
+</body>
+
 </html>
